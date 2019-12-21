@@ -1,0 +1,387 @@
+li.nav-item {
+    margin-right: 10px;
+}
+
+li.nav-item:last-child {
+    margin-right: 0;
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+/*==================start header area=======================*/
+ .logo{
+    width: 20vw;
+    height: 15vh;
+    margin-top: 12px;
+    display: -webkit-flex;
+    -webkit-justify-content:center;
+    display: flex;
+    justify-content: center;
+
+   
+}
+.logo img{
+    width: 7vw;
+    height: 13vh;
+   
+}
+.col-md-8{
+    display: -webkit-flex;
+    -webkit-justify-content:center;
+    display: flex;
+    justify-content: center;
+}
+.media-box{
+    display: inline-block;
+    margin-top: 48px; 
+    /* margin-left: 200px; */
+    margin-right: 23px;
+   
+   
+}
+@font-face{
+    font-family: myfont;
+    src:url(../black-chancery-cufonfonts/BLKCHCRY.TTF);
+}
+
+
+.col-md-12 img{
+    width: 100%;
+    height: 5vh;
+    float:right;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -3;
+   
+}
+.col-sm-4 img{
+    width: 50%;
+    height: 12vh;
+    position: relative;
+    float: right;
+}
+.icon{
+    position: absolute;
+    top: 3px;
+    right: 40px;
+}
+/* .section1{
+    width: 100%;
+    /* box-shadow: 5px 5px 15px #a9a9b0; */
+
+/*==================end header area=======================*/
+/*==================start navbar=======================*/
+.navbar{        /*for Navigation bar border*/
+    box-shadow:2px 2px 15px black;
+    text-align: justify;
+    font-size: 16px;
+    display:block;
+    text-justify: inter-word;
+}
+/* &:after{
+    position: absolute;
+    content: "Menu";
+    right: 0;
+} */
+.navbar-nav .nav-item a{
+    letter-spacing: 3px;
+    
+    text-transform: uppercase;
+    color: #fff;
+   }
+   .navbar-toggler-icon {
+    background-color:white;
+}
+  
+   .navbar .nav-link:hover{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #020203;
+   }
+/* .section2 .navbar:hover{
+    background: linear-gradient(to right, #068770 0%, #bcc3c2 51%, #046251 100%);
+    color: #2e6ca5;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.9s ease-in;
+    box-shadow: 2px 2px 18px black;
+} */
+nav{
+    background-color: #2ba4f0;
+    
+    opacity: 0.8;
+}
+/*==================end navbar=======================*/
+/*==================start background imager=======================*/
+.image{
+    background: url("../images/maimt_index.png") no-repeat center top fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 90vh;
+}
+.primary-btn {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.primary-btn {
+    display: inline-block;
+    background: linear-gradient(to right, #068770 0%, #bcc3c2 51%, #046251 100%);
+    background-size: 200% auto;
+    padding: 0 38px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 50px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 10px 30px rgba(187, 146, 54, 0.5);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+.primary-btn:hover {
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+    outline: 0;
+    color: white;
+    background: linear-gradient(to right, #046f3e 0%, #bcc3c2 51%, #046251 100%);
+}
+.image .overlay{
+    background-color: rgba(4, 18, 19, 0.6);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 90vh;
+}
+.wrap .col-md-12{
+    text-align: center;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    top: 70px;
+    left: 0;
+}
+.word{
+    color: #e0c303;
+}
+.display-4{
+    color: #039ae0;
+}
+.col-md-12 h1{
+    font-family: "Playfair Display", serif;
+    font-weight: 700px; 
+    font-size: 45px;
+}
+
+/*==================end background image=======================*/
+/*==================start about area=======================*/
+.about .single-about {
+    position: relative; 
+}
+.about .single-about .bordered-img {
+      position: absolute;
+      right: 0;
+      bottom: -20px;
+      z-index: 10;
+      border: 1px dashed #a58e0d;
+      padding: 20px; 
+}
+.about .about-thumb {
+    overflow: hidden;
+    border: 1px dashed #a58e0d;
+    display: inline-block; 
+}
+.about .about-content {
+    position: relative;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 60px 0px 60px 0px;
+    min-width: 33vw;
+    z-index: 5; 
+}
+.about img:hover {
+    
+    transition: all 0.3s ease-in;
+    transform: scale(1.1);
+    transition: transform .5s; 
+}
+      
+.about .about-content h1 {
+      line-height: 1.15em;
+      margin-bottom: 30px;
+      font-family: "Playfair Display", serif; 
+    }
+     
+.about .about-content p {
+    color: #6e7272;
+      margin: 0; 
+    }
+.about .about-content .primary-btn {
+      margin-top: 30px;
+      text-transform: uppercase;
+      letter-spacing: 2px; 
+    }
+.about .about-right {
+    z-index: 2; 
+}
+/*==================end about area =======================*/
+/*==================start facility =======================*/
+.facility{
+    background-color: #00746d;
+    box-shadow: 2px 2px 20px #020203;
+}
+.facility-box .ico-circle {
+    transition: all 500ms ease;
+    font-size: 4rem;
+}
+.facility-box .ico-circle .img {
+   border-radius: 50%;
+   align-content: center;
+   width: 100%;
+   margin-top: -19px;
+
+}
+.facility-box{
+    box-shadow: 5px 5px 15px #a9a9b0;
+    border-radius: 5%;
+     transition: all 0.3s ease-in;
+     height: 25vh;
+}
+.facility-content h4, p{
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: 17px;
+}
+
+.color-black p {
+color: #000;
+}    
+.ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: block;
+}
+
+.facility-box:hover{
+    background: #023734;
+    color: white;
+    border-radius: 5%;
+    border: none;
+    box-shadow: 5px 5px 10px #093c6c;
+}
+/*==================end facility =======================*/
+/*==================start get in touch =======================*/
+/* .form .card{
+    background-color: #1f7eab;
+    box-shadow: 4px 6px 3px rgb(45, 45, 48);
+}
+.form h5{
+    color: #95f3d7;
+}
+.form .form-control{
+    
+} */
+/*==================start get in touch =======================*/
+.container h3{
+    font-family: Calibri;
+}
+.form{
+    background:  url("../images/mycol6.jpg") no-repeat center top fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 40px;
+}
+/*==================end get in touch =======================*/
+/*==================start footer area =======================*/
+.footer{
+    background-color: #171717;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 99999;
+}
+.footer .col-md-6 a{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    display: inline-block;
+    border-left: 1px solid gray;
+   }
+ 
+body{
+    overflow-x: hidden;
+}
+/*==================end footer area=======================*/
+@media (min-width: 1281px) {
+  
+    
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    
+    
+  }
